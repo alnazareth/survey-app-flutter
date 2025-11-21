@@ -1,16 +1,43 @@
-# my_frist_app
+# Flutter ToDo App
 
-A new Flutter project.
+A simple To-Do list application built with Flutter for learning purposes.
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+- Add tasks
+- Edit tasks
+- Delete tasks by swiping
+- Mark tasks as completed
+- Remove all completed tasks
+- Validation for empty and duplicate tasks
+- Local storage using SharedPreferences
+- Modern UI with Material Design
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📦 Requirements
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Before running the app, make sure you have:
+
+- Flutter SDK installed
+- Android Studio or VS Code
+- A physical Android device or emulator
+
+---
+
+## 📦 How to run the project
+
+- clone git clone https://github.com/TU_USUARIO/flutter_todo_app.git
+- Go into the folder: flutter_todo_app
+- Install dependencies: flutter pub get
+- run de App: flutter run
+
+
+
+Check Flutter installation:
+
+```bash
+flutter doctor
+
+
+
