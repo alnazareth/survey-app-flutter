@@ -2,6 +2,10 @@
 
 A complete Flutter application for creating and managing surveys with real-time Firebase Firestore integration, offline persistence, and professional architecture.
 
+
+<img width="240" height="520" alt="image" src="https://github.com/user-attachments/assets/a771c9b1-eb4f-425e-9b12-ee83a234e142" />
+
+
 ## 🚀 Features
 
 - **3 Complete Screens**: Home, Survey Form, Confirmation
