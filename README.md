@@ -1,43 +1,41 @@
-# Flutter ToDo App
+📊 Survey System - SurveyApp
+A Flutter application for creating and responding to surveys, integrated with Firebase Firestore for real-time storage and offline persistence.
 
-A simple To-Do list application built with Flutter for learning purposes.
+🚀 Implemented Features
+✅ Minimum Requirements
+3 separate screens (Home, Survey, Confirmation)
 
-## 🚀 Features
+Reusable widgets
 
-- Add tasks
-- Edit tasks
-- Delete tasks by swiping
-- Mark tasks as completed
-- Remove all completed tasks
-- Validation for empty and duplicate tasks
-- Local storage using SharedPreferences
-- Modern UI with Material Design
+State Management with Provider
 
----
+Form validation
 
-## 📦 Requirements
+Loading and error state handling
 
-Before running the app, make sure you have:
+Clean project structure
 
-- Flutter SDK installed
-- Android Studio or VS Code
-- A physical Android device or emulator
+✅ Navigation
+Navigation with Navigator.push/pop
 
----
+Complete flow: Home → Survey → Confirmation → Home
 
-## 📦 How to run the project
+✅ Firebase Integration
+Cloud Firestore with structure: surveys/{surveyId}/responses/{responseId}
 
-- clone git clone https://github.com/TU_USUARIO/flutter_todo_app.git
-- Go into the folder: flutter_todo_app
-- Install dependencies: flutter pub get
-- run de App: flutter run
+Offline persistence enabled
 
+Repository Pattern (no direct Firebase calls in UI)
+
+Timestamp and Map in responses
+
+🛠️ Setup
+Prerequisites
+Flutter SDK 3.0+
+### Install
 
 
-Check Flutter installation:
-
+clone:
 ```bash
-flutter doctor
-
-
-
+git clone [tu-repositorio]
+cd my_frist_app

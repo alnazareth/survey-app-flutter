@@ -1,37 +1,42 @@
-# Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.build/
-.buildlog/
-.history
-.svn/
-.swiftpm/
-migrate_working_dir/
-
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
-.idea/
-
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
-
-# Flutter/Dart/Pub related
+# Flutter
+.flutter/
+flutter_export_environment.sh
 **/doc/api/
-**/ios/Flutter/.last_build_id
 .dart_tool/
+.flutter-plugins
 .flutter-plugins-dependencies
 .pub-cache/
 .pub/
 /build/
 /coverage/
+
+# Android
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/app/build
+/android/build
+/android/.gradle
+/android/captures/
+/android/gradle-wrapper.jar
+/android/local.properties
+/android/**/*.jar
+/android/**/*.class
+
+# iOS
+/ios/**/*.mode1v3
+/ios/**/*.mode2v3
+/ios/**/*.moved-aside
+/ios/**/*.pbxuser
+/ios/**/*.perspectivev3
+/ios/**/*.sync/
+/ios/**/*.xcuserstate
+/ios/.generated/
+/ios/Flutter/App.framework/
+/ios/Flutter/Flutter.framework/
+/ios/Flutter/Flutter.podspec
+/ios/ServiceDefinitions.json
+/ios/Runner/GeneratedPluginRegistrant.*
 
 # Symbolication related
 app.*.symbols
@@ -39,7 +44,29 @@ app.*.symbols
 # Obfuscation related
 app.*.map.json
 
-# Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+# IDEs
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+.atom/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+*.pyc
+*.swp
+*.class
+
+# Firebase - OPCIONAL: Comenta/descomenta según necesites
+# android/app/google-services.json
+# ios/Runner/GoogleService-Info.plist
+
+# Miscellaneous
+migrate_working_dir/
